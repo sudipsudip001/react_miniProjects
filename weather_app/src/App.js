@@ -7,8 +7,6 @@ export default function App() {
   const [weatherData, setWeatherData] = useState(null);
 
   const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
-  console.log(API_KEY);
-
   const fetchWeatherData = async () => {
     try {
       const response = await axios.get(
