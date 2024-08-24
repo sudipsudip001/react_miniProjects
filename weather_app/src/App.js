@@ -6,12 +6,13 @@ export default function App() {
   const [location, setLocation] = useState('');
   const [weatherData, setWeatherData] = useState(null);
 
-  const API_KEY = '4ff504117030477da3b150059240806';
+  const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
+  console.log(API_KEY);
 
   const fetchWeatherData = async () => {
     try {
       const response = await axios.get(
-        `http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${location}&aqi=no`
+        `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${location}&aqi=no`
       );
       setWeatherData(response.data);
     } catch(error) {
