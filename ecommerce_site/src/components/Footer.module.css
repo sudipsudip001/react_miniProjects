@@ -1,0 +1,81 @@
+.outer{
+    display: flex;
+    justify-content: space-around;
+}
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    padding: 25px;
+}
+.image{
+    width: 150px;
+    height: 150px;
+}
+.linker{
+    width: 15vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+.rightSide{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: black; */
+}
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.twoLinks{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    /* background-color: black; */
+}
+.helpLinks{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.helpLinks a{
+    text-decoration: none;
+    color: black;
+}
+.helpLinks a:hover{
+    color: rgb(110, 108, 108);
+}
+.others{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.others a{
+    text-decoration: none;
+    color: black;
+}
+.others a:hover{
+    color: #6e6c6c
+}
+.formFill{
+    /* background-color: black; */
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    gap: 30px;
+}
+.formFill button{
+    border: none;
+    padding: 13px ;
+    border-radius: 10px;
+}
+.formFill input{
+    padding: 15px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.subscribe:hover{
+    background-color: lightblue;
+}

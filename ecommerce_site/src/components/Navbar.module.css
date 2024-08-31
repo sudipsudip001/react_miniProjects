@@ -1,0 +1,78 @@
+.all {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.img {
+    width: 18vw;
+    height: 25vh;
+}
+
+.navLinks {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 40vw;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+    padding: 5px 10px;
+    border-radius: 8px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+/* .navLinks a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: lightgrey;
+    border-radius: 8px;
+    z-index: -1;
+    transform: scale(0);
+    transition: transform 0.3s ease;
+} */
+
+.navLinks a:hover {
+    color: rgb(77, 51, 51);
+    background-color: rgb(240, 240, 240);
+}
+
+.navLinks a:hover::before {
+    transform: scale(1);
+}
+
+.former {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.former input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 8px;
+}
+
+.former .glass {
+    border: none;
+    background-color: white;
+    padding: 8px 10px;
+    border-radius: 8px;
+    object-fit: fill;
+    height: 40px;
+}
+.glass:hover{
+    background-color: rgb(247, 246, 246);
+}

@@ -1,0 +1,39 @@
+.outerText{
+    text-align: center;
+    padding: 50px;
+    margin-left: 48px;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+.photo{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    padding: 10px;
+}
+.lastOnes{
+    text-align: center;
+    padding: 65px;
+    margin-left: 29px;
+}
+.subscription_button{
+    text-decoration: none;
+    background-color: lightblue;
+    color: black;
+    border-radius: 8px;
+    padding: 10px;
+}
+.subscription_button:hover{
+    background-color: rgb(134, 171, 184);
+    color: white;
+}

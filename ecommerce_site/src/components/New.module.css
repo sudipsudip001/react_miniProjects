@@ -1,0 +1,39 @@
+.outer{
+    background-color: rgb(204, 228, 236);
+    padding: 75px;
+}
+.newProducts{
+    text-align: center;
+}
+.displayNew{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+.productImage{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+.forRow{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+.buyThis{
+    text-decoration: none;
+    background-color: rgb(81, 81, 196);
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+}
+.buyThis:hover{
+    background-color: skyblue;
+    color: rgb(83, 83, 90);
+}

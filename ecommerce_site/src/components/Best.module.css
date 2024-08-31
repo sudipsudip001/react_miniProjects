@@ -1,0 +1,39 @@
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: rgb(210, 235, 243);
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+.image{
+    width: 250px;
+    height: 250px;
+}
+.listing{
+    display: flex;
+    padding: 30px;
+}
+.bestOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+}
+.gt{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    height: 30px;
+}
+.gt:hover{
+    background-color: white;
+    border-radius: 30px;
+}

@@ -1,0 +1,21 @@
+.listItems{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.each{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.each:hover{
+    background-color: rgb(222, 238, 243);
+    border-radius: 10px;
+}
+.productImage{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}

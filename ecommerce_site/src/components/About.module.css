@@ -1,0 +1,37 @@
+.above{
+    height: 45vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 50px;
+}
+.image{
+    width: 50vw;
+    height: 40vh;
+    margin-bottom: 30px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+.shopNow{
+    text-decoration: none;
+    background-color: rgb(47, 47, 119);
+    width: 75px;
+    padding: 8px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.shopNow:hover{
+    background-color: rgb(4, 134, 177);
+    color: black;
+}
