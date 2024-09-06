@@ -1,0 +1,241 @@
+body{
+    padding: 30px;
+    margin: 30px;
+    background-color: lightgrey;
+}
+.outerBox{
+    border: 1px solid black;
+    padding: 13px;
+    background-color: rgb(181, 189, 196);
+}
+.display{
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(217, 231, 231);
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.numbers{
+    display: grid;
+    justify-items: center;
+    grid-gap: 15px 15px;
+}
+
+.innerNumbers{
+    display: grid;
+    justify-items: center;
+    grid-gap: 15px 15px;
+    border-top: 0;
+    padding: 18px;
+    margin-left: 0;
+    margin-right: 0;
+    border: 1px solid black;
+    padding-top: 5px;
+    background-color: rgb(170, 175, 182);
+}
+
+.firstRow{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 180px 60px;
+    grid-template-rows: 50px;
+    justify-items: center;
+    align-items: center;
+    color: white;
+}
+.secondRow{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 60px 60px 60px 60px;
+    justify-items: center;
+    align-items: center;
+    color: white;
+}
+.thirdRow{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 60px 60px 60px 60px;
+    justify-items: center;
+    align-items: center;
+    color: white;
+}
+.fourthRow{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 60px 60px 60px 60px;
+    justify-items: center;
+    align-items: center;
+    color: white;
+}
+.finalRow{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 180px 60px;
+    justify-items: center;
+    align-items: center;
+    color: white;
+}
+.clear{
+    background-color: rgba(28, 172, 255, 0.815);
+    padding: 15px;
+    padding-left: 80px;
+    padding-right: 82px;
+    border-radius: 5px;
+    justify-self: center;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.divide{
+    background-color: grey;
+    padding: 15px;
+    padding-left: 21px;
+    padding-right: 22px;
+    border-radius: 5px;
+    justify-self: center;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.seven{
+    background-color: grey;
+    padding: 15px;
+    padding-left: 17px;
+    padding-right: 22px;
+    border-radius: 5px;
+    justify-self: center;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.eight{
+    background-color: grey;
+    padding: 15px;
+    padding-left: 17px;
+    padding-right: 22px;
+    border-radius: 5px;
+    justify-self: center;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.nine{
+    background-color: grey;
+    padding: 15px;
+    padding-left: 17px;
+    padding-right: 22px;
+    border-radius: 5px;
+    justify-self: center;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.multiply{
+    background-color: grey;
+    padding: 15px;
+    padding-left: 21px;
+    padding-right: 22px;
+    border-radius: 5px;
+    justify-self: center;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.four{
+    background-color: grey;
+    padding: 15px;
+    padding-left: 17px;
+    padding-right: 22px;
+    border-radius: 5px;
+    justify-self: center;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.five{
+    background-color: grey;
+    padding: 15px;
+    padding-left: 17px;
+    padding-right: 22px;
+    border-radius: 5px;
+    justify-self: center;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.six{
+    background-color: grey;
+    padding: 15px;
+    padding-left: 17px;
+    padding-right: 22px;
+    border-radius: 5px;
+    justify-self: center;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.subtract{
+    background-color: grey;
+    padding: 15px;
+    padding-left: 21px;
+    padding-right: 22px;
+    border-radius: 5px;
+    justify-self: center;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.one{
+    background-color: grey;
+    padding: 15px;
+    padding-left: 17px;
+    padding-right: 22px;
+    border-radius: 5px;
+    justify-self: center;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.two{    
+    background-color: grey;
+    padding: 15px;
+    padding-left: 17px;
+    padding-right: 22px;
+    border-radius: 5px;
+    justify-self: center;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.three{
+    background-color: grey;
+    padding: 15px;
+    padding-left: 17px;
+    padding-right: 22px;
+    border-radius: 5px;
+    justify-self: center;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.plus{
+    background-color: grey;
+    padding: 15px;
+    padding-left: 17px;
+    padding-right: 22px;
+    border-radius: 5px;
+    justify-self: center;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.zero{
+    background-color: grey;
+    padding: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 5px;
+    justify-self: center;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.equals{
+    background-color: green;
+    padding: 15px;
+    padding-left: 17px;
+    padding-right: 22px;
+    border-radius: 5px;
+    justify-self: center;
+    cursor: pointer;
+    border: 1px solid black;
+}
